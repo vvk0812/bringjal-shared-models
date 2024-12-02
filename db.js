@@ -10,7 +10,7 @@ const connectDB = async () => {
 
     try {
         connection = await mongoose.connect(
-            'mongodb+srv://vvk7899:8J2ReEBLMxUIZXVq@bigdelivery.jaqys.mongodb.net/BigDelivery?retryWrites=true&w=majority', 
+            'mongodb+srv://vvk7899:8J2ReEBLMxUIZXVq@bigdelivery.jaqys.mongodb.net/?retryWrites=true&w=majority&appName=BigDelivery', 
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
